@@ -11,7 +11,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="syberia" >
+  <project path="build/soong" name="platform_build_soong" remote="leddaz-stuff" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -58,8 +58,8 @@
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="syberia" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="syberia" />
 -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="syberia"/>
-  <project path="frameworks/av" name="platform_frameworks_av" remote="syberia" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="leddaz-stuff"/>
+  <project path="frameworks/av" name="platform_frameworks_av" remote="leddaz-stuff" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="syberia" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="syberia" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="syberia" />
@@ -113,10 +113,8 @@
   <project path="packages/apps/SyberiaSettings" name="platform_packages_apps_SyberiaSettings" remote="syberia" />
   <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" remote="syberia" />
 
-  <!-- Repainer service -->
-<!--
+  <!-- Repainter service -->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
--->
 
   <!-- Prebuilts -->
 <!--
@@ -153,7 +151,7 @@
   <!-- Vendor -->
   <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="syberia-gl" />
   <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="syberia-gl" />
-  <project path="vendor/syberia" name="platform_vendor_syberia" remote="syberia" />
+  <project path="vendor/syberia" name="platform_vendor_syberia" remote="leddaz-stuff" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="syberia" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="syberia" />
   <project path="vendor/qcom/opensource/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="syberia" />

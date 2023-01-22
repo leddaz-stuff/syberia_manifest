@@ -19,6 +19,10 @@
            fetch="https://gitlab.com/syberia-project"
            revision="refs/heads/13.0" />
 
+  <remote  name="leddaz-stuff"
+           fetch="https://github.com/leddaz-stuff"
+           revision="refs/heads/13.0" />
+
   <default revision="refs/tags/android-13.0.0_r23"
            remote="aosp" />
 
